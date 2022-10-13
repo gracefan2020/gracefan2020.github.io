@@ -56,6 +56,39 @@ a:hover {
     border-top: 1px solid #EEEEEE;
 }
 
+.row {
+    display: inline-block;
+    margin-left:50px;
+}
+
+.row h1 {
+    font-size: 260%;
+    font-weight: 500;
+}
+
+.column-left {
+    float: left;
+    text-align: left;
+    width: 60%;
+    padding: 5px;
+}
+
+.column-right {
+    float: right;
+    text-align: center;
+    width: 20%;
+    padding-right: 0px;
+}
+
+.column-left .keyvalue td, .keyvalue th {
+    border: none;
+}
+
+.column-right .keyvalue td, .keyvalue th {
+    border-top: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+}
+
 .school-section h1 {
     text-transform: uppercase;
     color: #CC0000;

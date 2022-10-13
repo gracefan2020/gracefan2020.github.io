@@ -11,10 +11,7 @@ var vars = {
 // as the second
 // (examples provided)
 var tabs = [];
-// tabs.push(["pol.html", "Policies"]);
-// tabs.push(["sched.html", "Schedule"]);
-// tabs.push(["papers.html", "Presentation Papers"]);
-tabs.push(["pol.html", "About Me"]);
+// tabs.push(["about.html", "About Me"]);
 tabs.push(["papers.html", "Research Papers"]);
 
 ///////////////////////////////////////////////////////////////////////////////
