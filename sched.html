@@ -1,0 +1,372 @@
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title></title>
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#myNavbar" id="burger">
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+			</button>
+
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">
+					<span class="hidden-xs" id="brand-big"></span>
+					<span class="visible-xs" id="brand-small"></span>
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="school-header">
+			<a href="https://www.ccis.northeastern.edu" target="_blank"><img id="logo" class="img-responsive" src="img/logo.png" /></a>
+
+			<div id="info" class="row">
+				<div class="col-md-2"><span class="var-semester"></span></div>
+				<div class="col-md-2"><span class="var-section"></span></div>
+			</div>
+		</div>
+
+
+
+		<div class="school-section">
+
+			<h1>Schedule</h1>
+
+
+			<p></p>
+			<p>Note: This schedule is subject to change
+			and will be adjusted as needed throughout the
+		  semester.
+		  <p>1.R means Thursday Week 1 (aka Sept 8th), 2.M
+			means Monday Week 2 (aka Sept 12th).  
+
+		
+		  </p> 
+
+		  	<div class="table-responsive">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+
+							<th>Week</th>
+
+							<th>Topic</th>
+
+	<th> Readings</th>
+						</tr>
+					</thead>
+
+					<tbody> 
+
+					  <tr>
+					    <td> 1.R</td>
+					    <td>Course introduction<br>
+					     (DB Intro) Table Join Search
+
+</td>
+<td>
+<a href="http://www.vldb.org/pvldb/vol9/p1185-zhu.pdf">LSH Ensemble:
+					    Internet-Scale Domain
+					    Search</a>, PVLDB16
+</td></tr>
+<tr>
+  <td>2.M</td>
+  <td>(AI/ML Intro) Table Union Search<br>
+    <!-- Entity Matching<br>
+    Overview of (traditional) entity matching<br>
+    Matching using learning -->
+</td>
+
+<td>
+  <a href="http://www.vldb.org/pvldb/vol11/p813-nargesian.pdf">Table 
+					    Union Search</a>, PVLDB18</td>
+<!--  <a href="https://dl.acm.org/doi/pdf/10.1145/3183713.3196926">Deep Learning
+  for Entity Matching: A Design Space Exploration</a>, SIGMOD18 -->
+</tr>
+<tr>
+  <td>2.R</td>
+  <td>Schema Matching and <br>
+	  Learned Schema Matching (<a href="https://sites.google.com/view/roee-shraga/"> Roee Shraga </a>)
+</td>
+
+<td>
+  <br>
+  <a href="https://ieeexplore.ieee.org/document/8944172">Learning to
+  Rerank Schema Matches</a>, ICDM18<br>
+<a href="www.vldb.org/pvldb/vol13/p1401-shraga.pdf"> Cross-Domain Schema Matching using Deep
+Similarity Matrix Adjustment and Evaluation</a>, VLDB20
+</td>
+</tr>
+
+
+<tr>
+  <td>3.M</td>
+  <td>Entity Matching (aka Link Predication aka Resolution)</td>
+  <td><a href="https://openproceedings.org/edbt/https://openproceedings.org/2020/conf/edbt/paper_T2.pdf">
+    Entity Resolution: Past, present and yet-to-come</a>, Tutorial at EDBT20
+<br>
+        <a href="https://dl.acm.org/doi/10.1145/3405476">Magellan: :
+  toward building ecosystems of entity matching solutions</a>, CACM20
+  </td>
+
+
+</tr>
+<tr>
+  <td>3.R</td>
+  <td> Table Representation (Roee Shraga) </td>
+  <td> <a href="https://dl.acm.org/doi/abs/10.1145/3397271.3401120">Web Table Retrieval using Multimodal Deep Learning</a>, SIGIR'20<br>
+	<a href="https://dl.acm.org/doi/abs/10.14778/3430915.3430921">TURL: table understanding through representation learning</a>, VLDB'21
+	</td>
+<tr>
+  <td>4.M</td>
+  <td>Recovering Relationship Semantics (Aamod Khatiwada) </td>
+  <td>
+<!--    <a href="https://ieeexplore.ieee.org/document/9101607">Dataset
+  Discovery in Data Lakes</a>, ICDE20</br>-->
+    SANTOS: Relationship-based Semantic Table Union Search,
+    SIGMOD23<br>
+    <a
+    href="https://dl.acm.org/doi/10.1145/3514221.3517906">Annotating
+    Columns with Pre-trained Language Models</a>, SIGMOD22
+
+ </td>
+</tr>
+<tr>
+  <td>4.R</td>
+  <td>Guest Speaker, <a href="http://www.cs.iit.edu/~dbgroup/members/bglavic.html">Professor Boris Glavic</a>
+</td>
+
+<td>
+  Title:   Interpretable Data-Based Explanations for Fairness Debugging
+  <br>
+  
+  Abstract:  A wide variety of fairness metrics and eXplainable Artificial Intelligence (XAI) approaches have been proposed in the literature to identify bias in machine learning models that are used in critical real-life contexts. However, merely reporting on a model’s bias or generating explanations using existing XAI techniques is insufficient to locate and eventually mitigate sources of bias. In this presentation, I will introduce the audience to Gopher, a system that produces compact, interpretable, and causal explanations for bias or unexpected model behavior by identifying coherent subsets of the training data that are root-causes for this behavior. Gopher is based on the concept of causal responsibility that quantifies the extent to which intervening on training data by removing or updating subsets of it can resolve the bias. Intuitively, if removing a subset of the training data significantly reduces bias, then this subset of the training data bears strong responsibility for the observed bias. Building on this concept, I will introduce an efficient approach for generating the top-k patterns that explain model bias. This approach utilizes techniques from the machine learning (ML) community to approximate causal responsibility, and uses pruning rules to manage the large search space for patterns. The experimental evaluation of Gopher demonstrated the effectiveness of the system in generating interpretable explanations for identifying and debugging sources of bias.
+<br>
+Paper:  <a ref="https://dl.acm.org/doi/10.1145/3514221.3517886"> Interpretable
+  Data-Based Explanations for Fairness Debugging</a>, SIGMOD22
+</td>
+</tr>
+
+<tr>
+  <td>5.M</td>
+     <td>Guest Speaker, <a href="https://www.oktie.com/">Dr. Oktie Hassanzadeh</a>
+  <td>
+    Title: Knowledge Graphs for Data Exploration and Data Science
+<br>
+In this seminar, I will present a number of prototype data management solutions developed at IBM Research that leverage knowledge graphs for large-scale data exploration, data curation, and data science. In particular, I will describe an application of knowledge graphs for large-scale data exploration and curation in the context of the IBM Research Helix project, where large-scale similarity analysis and automated linkage discovery enable the discovery and construction of data sets from a large number of data sets (or a data lake) for a given analytics task. I will then present our work on building a toolkit that uses knowledge graphs for automating machine learning tasks. I will show how mapping tabular data to knowledge graphs can assist with feature engineering, and the challenges we faced in implementing our prototype solution. Finally, I will present present a number of techniques we experimented with for semantic annotation of tabular data, and our ongoing work on evaluation of table annotation systems as a part of the annual ISWC SemTab Challenge (https://www.cs.ox.ac.uk/isg/challenges/sem-tab/).
+<br>
+Bio: Dr. Oktie Hassanzadeh is a Senior Research Staff Member at IBM T.J. Watson Research Center. He is the recipient of several academic and corporate awards, including a top prize at the FinCausal-2022 Shared Task, a top prize at the Semantic Web Challenge at ISWC conference, and two best-paper awards at ESWC conferences. He has received his M.Sc. and Ph.D. degrees from the University of Toronto, where he received the IBM PhD fellowship and the Yahoo! Key Scientific Challenges awards. He is also a two-time recipient of the first prize at the Triplification Challenge at the SEMANTiCS Conference for his projects in the areas of Semantic Technologies and Linked Data. For more information, refer to his home page: http://researcher.watson.ibm.com/person/us-hassanzadeh
+<br>
+    Readings:
+    <ul>
+<li> Exploring Big Data with Helix: Finding Needles in a Big Haystack. Jason B. Ellis, Achille Fokoue, Oktie Hassanzadeh, Anastasios Kementsietsidis, Kavitha Srinivas, Michael Jeffrey Ward SIGMOD Rec. 43(4): 43-54 (2014) https://sigmodrecord.org/publications/sigmodRecord/1412/pdfs/09_industry_Ellis.pdf
+<li> Automated Feature Enhancement for Predictive Modeling using External Knowledge.  Sainyam Galhotra, Udayan Khurana, Oktie Hassanzadeh, Kavitha Srinivas, Horst Samulowitz, Miao Qi ICDM Workshops 2019: 1094-1097 https://udayankhurana.com/wp-content/uploads/2019/12/KBFeature_Demo-3.pdf
+<li> Matching Web Tables with Knowledge Base Entities: From Entity Lookups to Entity Embeddings.  Vasilis Efthymiou, Oktie Hassanzadeh, Mariano Rodriguez-Muro, Vassilis Christophides ISWC (1) 2017: 260-277 https://iswc2017.ai.wu.ac.at/wp-content/uploads/papers/MainProceedings/98.pdf
+    </ul>
+    </td>
+</tr>
+<tr>
+  <td>5.R</td>
+  <td>Skills Seminar</td>
+</td>
+
+<td>How to Write a Research Paper?</br>
+  How to Give a Good Research Talk</br> (slides on canvas)
+</td>
+</tr>
+<tr>
+  <td>6.M</td>
+  <td> No class</td><td>Indigenous People's Day</td>
+</tr>
+<tr>
+  <td>6.R</td>
+  <td>Guest Speaker Grace Fan, Contextualized Column Embeddings</td>
+  <td><a href="https://arxiv.org/abs/2210.01922">Semantics-aware Dataset Discovery from Data Lakes with Contextualized Column-based Representation Learning</a></td>
+</tr>
+
+
+<tr>
+  <td>7.M</td>
+<td>Domain Detection and Homograph Detection <br>(Aamod Khatiwada)
+<td>
+<a href="http://www.vldb.org/pvldb/vol13/p953-ota.pdf">Data-Driven Domain Discovery for Structured Datasets</a>, VLDB20<br>
+<a href="https://openproceedings.org/2021/conf/edbt/p82.pdf">DomainNet: Homograph Detection for Data Lake Disambiguation</a>, EDBT21 (best paper award)
+ </td>
+</tr>
+<tr>
+  <td>7.R</td>
+  <td>Guest Speaker Professor Fatemeh Nargesian, University of Rochester
+</td>
+
+  <td>
+    <a href="https://dl.acm.org/doi/10.1145/3514221.3522567">
+Responsible Data Integration: Next-generation Challenges</a>, SIGMOD22
+</td>
+</tr>
+
+
+<tr>
+  <td>8.M</td>
+  <td>TBD
+<td>
+ </td>
+</tr>
+<tr>
+  <td>8.R</td>
+  <td>TBD
+</td>
+
+<td>
+</td>
+</tr>
+
+
+<tr>
+  <td>9.M</td>
+  <td>Mrudula Krishnan Prasad<br> Koyenna Pal</td>  
+  <td>Ditto <a href="http://www.vldb.org/pvldb/vol14/p50-li.pdf">Deep Entity Matching with Pre-Trained Language Models</a>, VLDB21<br>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0004370221001788">Knowledge graphs as tools for explainable machine learning: A survey</a>, AI22
+ </td>
+</tr>
+<tr>
+  <td>9.R</td>
+  <td>Dr. Brit Youngmann, MIT</td>
+</td>
+
+<td>
+  Data Tools for Accelerated Scientific Discoveries
+</td>
+</tr>
+
+<tr>
+  <td>10.M</td>
+  <td>Guest Speakers from Megagon Labs<br> or Elizabeth Witten</td>
+<td><a href="https://dl.acm.org/doi/abs/10.1145/3448016.3457258"> Rotom: A Meta-Learned Data Augmentation Framework for Entity Matching, Data Cleaning, Text Classification</a>,
+SIGMOD 2021
+
+   </td>
+</tr>
+<tr>
+  <td>10.R</td>
+  <td>Student Project Interim reports</td>
+</td>
+
+<td>
+</td>
+</tr>
+
+<tr>
+  <td>11.M</td>
+  <td></td>
+<td>
+ </td>
+</tr>
+<tr>
+  <td>11.R</td>
+  <td></td>
+</td>
+
+<td>
+</td>
+</tr>
+
+
+<tr>
+  <td>12 no class (Thanksgiving)</td>
+  <td></td>
+<td>
+ </td>
+</tr>
+<tr>
+  <td>13 and 14</td>
+  <td>Final Project Reports</td>
+</td>
+
+<td>
+</td>
+</tr>
+
+</tr>
+
+</tr>
+
+
+
+
+
+	<!-- Just some space for prettiness :) -->
+<div style="padding-bottom: 20px"></div>
+<div class="school-section"></div>
+
+
+<div class="school-footer">
+	<footer>
+		<small><em>
+<!--			<script>
+			document.write("This page was last modified on: " + document.lastModified +"");
+			</script>
+  -->
+		</em></small>
+	</footer>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/settings.js"></script>
+<script>
+$(document).ready(function() {
+
+	// enable tooltips
+	$('[data-toggle="tooltip"]').tooltip();
+
+	// prepare the page based upon settings
+	settingsReady();
+
+});
+</script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111996501-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+	dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'UA-111996501-1');
+</script>
+
+</body>
+
+</html>

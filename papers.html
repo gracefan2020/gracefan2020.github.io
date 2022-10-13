@@ -1,0 +1,170 @@
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title></title>
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#myNavbar" id="burger">
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+			</button>
+
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">
+					<span class="hidden-xs" id="brand-big"></span>
+					<span class="visible-xs" id="brand-small"></span>
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="school-header">
+			<a href="https://www.ccis.northeastern.edu" target="_blank"><img id="logo" class="img-responsive" src="img/logo.png" /></a>
+
+			<div id="info" class="row">
+				<div class="col-md-2"><span class="var-semester"></span></div>
+				<div class="col-md-2"><span class="var-section"></span></div>
+			</div>
+		</div>
+
+
+
+		<div class="school-section">
+
+			<h1>Papers</h1>
+
+
+			<p></p>
+Below is a set of papers that you may present in class.  This list is growing.  You may also suggest another paper (which must be approved by the professor) that is a data management paper using ML or an ML paper that uses data management to scale ML.
+
+		
+		  </p> 
+		  <ul>
+		    <li>		  ML for Entity Resolution
+		    <ul><li>
+<a href="https://dl.acm.org/doi/10.1145/1807167.1807252">On active learning of record matching packages</a>, SIGMOD 2010
+<li> <a href="https://dl.acm.org/doi/10.1145/3308558.3313578">Auto-EM: End-to-end Fuzzy Entity-Matching using Pre-trained Deep Models and Transfer Learning</a>, WWW 2019
+<li> <a href="https://dl.acm.org/doi/10.1145/3318464.3389743">ZeroER: Entity Resolution using Zero Labeled Examples</a>, SIGMOD 2020
+<li> <a href="https://dl.acm.org/doi/10.1145/3448016.3452824">Auto-FuzzyJoin: Auto-Program Fuzzy Similarity Joins Without
+		      Labeled Examples</a>, SIGMOD 2021
+		    </ul>
+		    <li>Column Annotation
+		    <ul>
+<li> <a href="http://www.vldb.org/pvldb/vol13/p1835-zhang.pdf">Sato: Contextual Semantic Type Detection in Tables</a>, PVLDB 2020 
+<li> <a href="https://dl.acm.org/doi/10.1145/3514221.3517906">Annotating Columns with Pre-trained Language Models</a>, SIGMOD 2022
+		    </ul>
+		    <li> Data Augmentation
+		    <ul>
+<li> <a href="https://dl.acm.org/doi/abs/10.1145/3448016.3457258"> Rotom: A Meta-Learned Data Augmentation Framework for Entity Matching, Data Cleaning, Text Classification</a>, SIGMOD 2021
+<li> <a href="http://vldb.org/pvldb/vol14/p1202-fan.pdf">Adaptive Data Augmentation for Supervised Learning over Missing
+		      Data</a>, PVLDB21
+		      </ul>
+		      <li> Data Labeling
+		      <ul>
+<li> <a href="http://www.vldb.org/pvldb/vol11/p269-ratner.pdf">Snorkel: Rapid Training Data Creation with Weak Supervision</a>,
+			PVLDB18
+			</ul>
+			<li> Data Cleaning
+			<ul>
+<li> <a href="http://www.vldb.org/pvldb/vol9/p948-krishnan.pdf">ActiveClean: Interactive Data Cleaning For Statistical Modeling</a>,
+			  PVLDB16
+			  </ul>
+<li> ML for Query Optimization
+<ul><li>
+<a href="http://www.vldb.org/pvldb/vol12/p1705-marcus.pdf">Neo: A Learned Query Optimizer</a>, PVLDB19
+<li>
+ <a href="https://dl.acm.org/doi/10.1145/3448016.3452838">Bao: Making Learned Query Optimization Practical</a>, SIGMOD21
+  </ul>
+  <li>
+  Table Embeddings
+  <ul>
+<li> <a href="http://vldb.org/pvldb/vol14/p307-deng.pdf">TURL: Table Understanding through Representation Learning</a>, PVLDB21
+    <li> <a href="https://ieeexplore.ieee.org/document/9835527">Unsupervised Matching of Data and Text</a>, ICDE22
+  </ul>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Just some space for prettiness :) -->
+<div style="padding-bottom: 20px"></div>
+<div class="school-section"></div>
+
+
+<div class="school-footer">
+	<footer>
+		<small><em>
+<!--			<script>
+			document.write("This page was last modified on: " + document.lastModified +"");
+			</script>
+  -->
+		</em></small>
+	</footer>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/settings.js"></script>
+<script>
+$(document).ready(function() {
+
+	// enable tooltips
+	$('[data-toggle="tooltip"]').tooltip();
+
+	// prepare the page based upon settings
+	settingsReady();
+
+});
+</script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111996501-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+	dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'UA-111996501-1');
+</script>
+
+</body>
+
+</html>
