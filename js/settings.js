@@ -1,7 +1,5 @@
 var vars = {
-  'classNum': 'CS7290',
-    'className': 'Special Topics in Data Science',
-  'semester': 'Fall 2022',
+  'name': 'Grace Fan',
 };
 
 // FIXME
@@ -13,9 +11,11 @@ var vars = {
 // as the second
 // (examples provided)
 var tabs = [];
-tabs.push(["pol.html", "Policies"]);
-tabs.push(["sched.html", "Schedule"]);
-tabs.push(["papers.html", "Presentation Papers"]);
+// tabs.push(["pol.html", "Policies"]);
+// tabs.push(["sched.html", "Schedule"]);
+// tabs.push(["papers.html", "Presentation Papers"]);
+tabs.push(["pol.html", "About Me"]);
+tabs.push(["papers.html", "Research Papers"]);
 
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
@@ -23,11 +23,11 @@ tabs.push(["papers.html", "Presentation Papers"]);
 
 function settingsReady() {
   // set the page title (change as desired)
-  $(document).attr("title", vars['classNum'] + " | " + vars['className'] + " | " + vars['section'] + " | " + vars['semester']);
+  $(document).attr("title", vars['name']);
 
   // sets the navbar title (shortening for smaller screens)
-  $('#brand-big').text(vars['classNum'] + " | " + vars['className']);
-  $('#brand-small').text(_shorten(vars['classNum'] + " | " + vars['className']));
+  $('#brand-big').text(vars['name']);
+  $('#brand-small').text(_shorten(vars['name']));
 
   // generally replaces any usage of variable classes on the page
   for (k in vars) {
