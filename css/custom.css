@@ -76,7 +76,7 @@ a:hover {
 .column-right {
     float: right;
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
     padding-right: 0px;
 }
 
